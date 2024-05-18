@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon"
+        href="data:image/png;base64,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">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Prata&display=swap" rel="stylesheet">
+    <!-- font copied from google fonts -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container"></div>
+    <!-- nav is used to place link -->
+    <nav class="navbar" id="nav_container">
+        <img src="./assets/a-business-woman-who-explains-drawings_csp12051090.jpg" alt="" height="150px" width="150px">
+        <ul>
+            <li><a href="#home" class="link">HOME</a></li>
+            <li><a href="#about" class="link">ABOUT</a></li>
+            <li><a href="#skills" class="link">SKILL</a></li>
+            <li><a href="#contact" class="link">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- home section  -->
+    <section id="home">
+        <div class="title">
+            <h1>I'm Ana <span style="color: orange; font-size: 60px;">Steel</span></h1>
+            </p>This is my official portfolio website to describe all<br>
+            Details and work experience in Web Development.</p>
+            <a href="./assets/dummy.pdf" target="_blank">DOWNLOAD CV</a>
+        </div>
+        <div class="images">
+            <img src="./assets/shape.png" alt="" class="img_grp" id="shape">
+            <img src="./assets/girl.png" alt="" class="img_grp" id="girl">
+        </div>
+    </section>
+    <!-- about section   -->
+    <section id="about">
+        <div class="heading">
+            <h1>About Me</h1>
+            <span>INTRODUCTION</span>
+        </div>
+        <div class="about_container">
+            <div class="about_img">
+                <img src="./assets/WhatsApp Image 2024-05-02 at 12.19.39_ae0b7a19.jpg" alt="">
+            </div>
+            <div class="about_details">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio similique rerum ipsa,
+                     molestias quibusdam ad recusandae dolore est! Itaque unde saepe tenetur nisi nemo omnis sequi
+                      perspiciatis error fuga commodi?</p>
+                      <div class="information">
+                        <div class="info_box">
+                        <i class="fa-solid fa-user"></i>
+                        <!-- copied from font font-awesome  to use it copy its cdn and paste it in head tag  -->
+                        <span>Ana Steel</span>
+                       </div>
+                       
+                       <div class="info_box">
+                        <i class="fa-solid fa-envelope"></i>
+                        <!-- copied from font font-awesome  to use it copy its cdn and paste it in head tag  -->
+                        <span>ana@gmail.com</span>
+                       </div>
+                       <div class="info_box">
+                        <i class="fa-brands fa-github"></i>
+                        <!-- copied from font font-awesome  to use it copy its cdn and paste it in head tag  -->
+                        <span>anasteel</span>
+                       </div>
+                        
+                      </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- skills section  -->
+    <section id="skills">
+        <div class="heading">
+            <h1>Skills</h1>
+            <span>My skills</span>
+        </div>
+        <div class="skill_container">
+            <div class="progress_bar">
+                <div class="bar_container">
+                    <h3>HTML</h3>
+                    <span>95%</span>
+                    <div class="bar"></div>
+                    <div class="bar html-bar"> </div>
+                    <!-- this div will apply the mentioned properties of bar tag also  -->
+                 </div>
+
+                 <div class="bar_container">
+                    <h3>CSS</h3>
+                    <span>80%</span>
+                    <div class="bar"></div>
+                    <div class="bar css-bar"> </div>
+                    <!-- this div will apply the mentioned properties of bar tag also  -->
+                 </div>
+
+                 <div class="bar_container">
+                    <h3>Javscript</h3>
+                    <span>70%</span>
+                    <div class="bar"></div>
+                    <div class="bar js-bar"> </div>
+                    <!-- this div will apply the mentioned properties of bar tag also  -->
+                 </div>
+
+                 <div class="bar_container">
+                    <h3>React</h3>
+                    <span>89%</span>
+                    <div class="bar"></div>
+                    <div class="bar react-bar"> </div>
+                    <!-- this div will apply the mentioned properties of bar tag also  -->
+                 </div>
+
+                
+            </div>
+            <div class="skill_image">
+                <img src="./assets/WhatsApp Image 2024-05-02 at 12.19.38_ca094e17.jpg" alt="">
+            </div>
+
+        </div>
+    </section>
+    <!-- contact section  -->
+    <section id="contact">
+        <div class="heading">
+            <h1>Contact</h1>
+            <span>My contacts</span>
+        </div>
+        <div class="iconset">
+            <div class="icon">
+                <a href=""></a><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+            <div  class="icon">
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div  class="icon">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+               
+                <div  class="icon">
+                    
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    </div>
+                    <div  class="icon">
+                        
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div  class="icon">
+                        
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+    
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section  -->
+    <footer>
+        <p> &copy; My portfolio design 2024, All rights Reserved &reg; Ana Steel</p>
+        <!-- or check the html symbols  -->
+        <div class="arrow">
+            <a href="#nav_container"><i class="fa-solid fa-arrow-up fa-2x"></i></a>
+            <!-- fa-2x is added to increase the size  -->
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>                                                                                                                                             
