@@ -250,4 +250,352 @@ footer p{
 html{
     scroll-behavior: smooth;
 }
+@media (min-width: 768px) and (max-width:991px){
+    .navbar img{
+        height: 100px;
+    }
+    .navbar{
+       
+        width: 80%;
+        margin-left: 0px;
+      
+    }
+
+    .link{
+     font-size: 10px;
+ 
+    }
     
+   
+    .title{
+  
+        margin-top: 3%;
+    
+    }
+    .title h1{
+        font-size: 30px;
+        font-weight:800 ;
+        margin-bottom:20px;
+    }
+    .title span{
+        font-size: 35px!important;
+    }
+   
+    .title a{
+font-size: 14px;
+       
+    }
+    .title p{
+        margin-bottom: 30px;
+        font-size: 15px!important;
+        font-weight: 600;
+        }
+        .title a{
+    
+            padding: 10px 15px;
+            font-size: 10px;
+         
+        }
+      
+        .images{
+            width: 5%;
+            height: 40%;
+            position:absolute;
+            right: 25%;
+            bottom: 46%;
+        }
+            
+        
+        .heading span{
+            color: green;
+            font-size: 10px;
+        }
+        .heading h1{
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .about_container{
+           
+            column-gap: 30px;
+           
+        }
+        .about_details p{
+            font-size: 10px!important;
+        }
+        .about_img img{
+            width: 90%;
+            height: 60%;
+        }
+        .about_details p{
+            font-size: 13px;
+        }
+
+        .information{
+            margin-top: 10px;
+        }
+        .info_box{
+            margin-bottom: .5rem;
+            /*  root em)2rem=16px*2  */
+            font-size: 10px;
+        
+        }
+        .info_box span{
+            margin-left:10px ;
+            font-size: 10px;
+        }
+       
+        .skill_container{
+         
+            column-gap: 20px;
+           
+        }
+        .progress_bar{
+            margin-top: 15px;
+        }
+        .bar_container{
+        
+         
+            margin-bottom: .5rem;
+            
+        }
+        .bar_container h3,span{
+            font-size: 10px;
+             font-weight:600 ;
+        }
+        .bar{
+            width: 100%;
+            height: 4px;
+            background-color: black;
+            position: absolute;
+            bottom: 0px;
+        }
+        .html-bar{
+            background-color: orange;
+            width: 95%;
+        }
+        .css-bar{
+            background-color: orange;
+            width: 80%;
+        }
+        .js-bar{
+            background-color: orange;
+            width: 70%;
+        }
+        .react-bar{
+            background-color: orange;
+            width: 89%;
+        }
+        .skill_container img{
+            width: 95%;
+            margin-left: 25px;
+            height: 70%;
+        }
+        #contact{
+            margin: 8% 8% 0px 8%;
+        }
+        .iconset{
+            display: flex;
+            /* to come in same line  */
+            align-items: center;
+            /* to vertical-align:  ; */
+            justify-content: center;
+            margin-top: 3%;
+        }
+       
+       
+        .icon, .arrow{
+            height: 50px;
+            width: 50px;
+            justify-content:center;
+            align-items: center;
+            margin: 0px 20px;
+            border-radius: 50%;
+            display: flex;
+            /* hover cheumbo corrrect color align ayi varan  */
+        }
+        .icon i{
+            color: black;
+            font-size: 20px;
+        }
+       
+        footer p{
+            text-align: center;
+            font-weight: 600;
+        font-size: 10px!important;
+    margin-top: -50px;
+        }
+        .arrow{
+           visibility: hidden;
+        } 
+    
+}
+    
+@media  (max-width: 600px){
+    .navbar img{
+        height: 100px;
+    }
+    .navbar{
+       
+        width: 100%;
+       margin-left: 0px;
+    }
+    ul li{
+        margin:10px 5px;
+    }
+    .link{
+      font-size: 10px;
+       
+    }
+       .title{
+        margin-left: 8%;
+        margin-top: 13%;
+    width: 50%;
+
+    }
+    .title h1{
+        font-size: 22px;
+      
+        margin-bottom:0px;
+    }
+    .title p{
+    margin-bottom: 20px;
+    font-size: 10px!important;
+    font-weight: 600;
+    }
+    .title a{
+
+        padding: 10px 15px;
+        font-size: 10px;
+     
+    }
+    .title span{
+        font-size: 30px!important;;
+    }
+    .images{
+        width: 5%;
+        height: 30%;
+        position:absolute;
+        right: 15%;
+        bottom: 54%;
+    }
+        
+    
+    .heading span{
+        color: green;
+        font-size: 10px;
+    }
+    .heading h1{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .about_container{
+       
+        column-gap: 30px;
+       
+    }
+    .about_details p{
+        font-size: 10px!important;
+    }
+    .about_img img{
+        width: 100%;
+        height: 50%;
+    }
+    .about_details p{
+        font-size: 13px;
+    }
+    .information{
+        margin-top: 10px;
+    }
+    .info_box{
+        margin-bottom: .5rem;
+        /*  root em)2rem=16px*2  */
+        font-size: 10px;
+    
+    }
+    .info_box span{
+        margin-left:10px ;
+        font-size: 10px;
+    }
+   
+    .skill_container{
+     
+        column-gap: 0px;
+       
+    }
+    .progress_bar{
+        margin-top: 15px;
+    }
+    .bar_container{
+    
+     
+        margin-bottom: .5rem;
+        
+    }
+    .bar_container h3,span{
+        font-size: 10px;
+         font-weight:600 ;
+    }
+    .bar{
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        position: absolute;
+        bottom: 0px;
+    }
+    .html-bar{
+        background-color: orange;
+        width: 95%;
+    }
+    .css-bar{
+        background-color: orange;
+        width: 80%;
+    }
+    .js-bar{
+        background-color: orange;
+        width: 70%;
+    }
+    .react-bar{
+        background-color: orange;
+        width: 89%;
+    }
+    .skill_container img{
+        width: 95%;
+        margin-left: 25px;
+        height: 70%;
+    }
+    #contact{
+        margin: 8% 8% 0px 8%;
+    }
+    .iconset{
+        display: flex;
+        /* to come in same line  */
+        align-items: center;
+        /* to vertical-align:  ; */
+        justify-content: center;
+        margin-top: 3%;
+    }
+    .icon, .arrow{
+        height: 50px;
+        width: 50px;
+        justify-content:center;
+        align-items: center;
+        margin: 0px 20px;
+        border-radius: 50%;
+        display: flex;
+        /* hover cheumbo corrrect color align ayi varan  */
+    }
+    .icon i{
+        color: black;
+        font-size: 20px;
+    }
+   
+    footer p{
+        text-align: center;
+        font-weight: 600;
+    font-size: 10px!important;
+margin-top: -50px;
+    }
+    .arrow{
+       visibility: hidden;
+    } 
+}
